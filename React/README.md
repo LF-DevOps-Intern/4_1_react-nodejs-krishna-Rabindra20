@@ -15,8 +15,9 @@ check node version
   <pre>create-react-app devops-internship</pre><br/>
 
 ![create devops](https://user-images.githubusercontent.com/53372486/141771712-772f733c-5c87-4b55-bdec-52fac31c1232.png)<br/>
-
+  
   <pre>cd devops-internship</pre><br/>
+  Now run react app<br/>
     <pre>npm start</pre><br/>
 
 ![react start in 3000](https://user-images.githubusercontent.com/53372486/141771747-0a5261a7-0953-4a3c-b732-e6f342ef842f.png)<br/>
@@ -30,9 +31,9 @@ check node version
     "build": "react-scripts build",<br/>
     "test": "react-scripts test --env=jsdom",<br/>
     "eject": "react-scripts eject"<br/>
-  }</pre><br/>
-   OR 
-   create .env file and add below line
+  }</pre>
+  <br/> OR <br/>
+   create .env file and add below line<br/>
     <pre>PORT=8000</pre><br/>
 
 ![port 3001](https://user-images.githubusercontent.com/53372486/141771778-745a5d07-e80e-4de2-8fda-95a3e73a8576.png)<br/>
@@ -53,5 +54,6 @@ function App() {
   );
 }
 export default App;</pre><br/>
+Again run react app<br/>
 
 ![displaymessage](https://user-images.githubusercontent.com/53372486/141771813-371f878a-b361-409c-bbd7-bfd178dac967.png)
