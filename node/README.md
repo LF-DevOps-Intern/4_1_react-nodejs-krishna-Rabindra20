@@ -91,6 +91,7 @@ start an application in 4 cluster mode using the -i flag<br/>
 <pre>sudo pm2 start 6080.js -i 4</pre><br/>
 
 ![cluster6080](https://user-images.githubusercontent.com/53372486/141771222-6a37ae51-6dc3-43cb-aeb8-c6552c12b1b5.png)<br/>
+
 <pre>sudo pm2 start 7080.js -i 4</pre><br/>
 
 ![pm2cluster](https://user-images.githubusercontent.com/53372486/141771248-7ce6df3c-df8c-439d-ab1e-595137eccea9.png)
