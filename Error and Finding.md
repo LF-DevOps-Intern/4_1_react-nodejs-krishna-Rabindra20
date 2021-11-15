@@ -5,6 +5,7 @@
 ![curl](https://user-images.githubusercontent.com/53372486/141803011-64300ff8-09a8-4a06-ad19-41900c260d81.png)<br/>
 
 2. npm start and npm run didn't worked 
+
 ![npm](https://user-images.githubusercontent.com/53372486/141803882-6776d319-2124-48c7-97f4-68a122a67499.png)<br/>
 
 ![run](https://user-images.githubusercontent.com/53372486/141803889-16f02ee8-34eb-4019-a5cb-dd597e08e83b.png)<br/>
