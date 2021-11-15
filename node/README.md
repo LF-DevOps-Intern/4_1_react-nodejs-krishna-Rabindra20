@@ -49,8 +49,7 @@ About to write to /home/rabindra/node/package.json:<br/>
   "author": "rabindra",<br/>
   "license": "ISC"
 }<br/>
-Add message and change port number inside 6080.js
-
+Add message and change port number inside 6080.js<br/>
 <pre>sudo nano 6080.js</pre><br/>
 
 <pre>var http = require('http');<br/>
