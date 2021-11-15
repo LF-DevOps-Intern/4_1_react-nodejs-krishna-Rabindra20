@@ -19,7 +19,7 @@
 <pre>npm -version</pre><br/>
 8.1.0<br/>
 
-[npm version](https://user-images.githubusercontent.com/53372486/141770544-6ca11dd0-4b84-41af-86de-8954aad8fc04.png)
+![npm version](https://user-images.githubusercontent.com/53372486/141770544-6ca11dd0-4b84-41af-86de-8954aad8fc04.png)
 <br/>
 ### Create 2 API's running on ports 6080 and 7080 with mesaages "Hello Node JS" and "Node JS installed successfully" respectively.
 <br/>
