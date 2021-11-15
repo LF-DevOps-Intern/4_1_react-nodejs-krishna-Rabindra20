@@ -53,12 +53,13 @@ Add message and change port number inside 6080.js
 
 <pre>sudo nano 6080.js</pre><br/>
 
-var http = require('http');<br/>
+<pre>var http = require('http');<br/>
 http.createServer(function(req,res){<br/>
  res.writeHead(200, { 'Content-Type': 'text/plain' });<br/>
  res.end('Hello Node JS');<br/>
 }).listen(6080);<br/>
-console.log('Server started on localhost:6080; press Ctrl-C to terminate...!');<br/>
+console.log('Server started on localhost:6080; press Ctrl-C to terminate...!');</pre>
+<br/>
 
 ![port6080](https://user-images.githubusercontent.com/53372486/141770599-30a839ce-b4ca-4b43-9a95-122ededdb060.png)<br/>
 
