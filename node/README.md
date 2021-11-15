@@ -65,11 +65,12 @@ console.log('Server started on localhost:6080; press Ctrl-C to terminate...!');<
 Run 6080.js<br/>
 <pre>node 6080.js</pre><br/>
 
-![port 70890](https://user-images.githubusercontent.com/53372486/141770592-8bd5bb11-1014-44e3-ab99-308b441261ff.png)<br/>
+![runing6080port](https://user-images.githubusercontent.com/53372486/141770608-bd02a96a-b761-43fc-b8a3-f85bc537ba47.png)<br/>
 
 <pre>sudo nano 7080.js</pre><br/>
 
-![runing6080port](https://user-images.githubusercontent.com/53372486/141770608-bd02a96a-b761-43fc-b8a3-f85bc537ba47.png)<br/>
+![port 70890](https://user-images.githubusercontent.com/53372486/141770592-8bd5bb11-1014-44e3-ab99-308b441261ff.png)<br/>
+
 
 <pre>node 7080.js</pre><br/>
 
