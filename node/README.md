@@ -50,18 +50,22 @@ About to write to /home/rabindra/node/package.json:
 <pre>node 6080.js</pre><br/>
 
 ![port 70890](https://user-images.githubusercontent.com/53372486/141770592-8bd5bb11-1014-44e3-ab99-308b441261ff.png)<br/>
+
 <pre>sudo nano 7080.js</pre><br/>
 
 ![runing6080port](https://user-images.githubusercontent.com/53372486/141770608-bd02a96a-b761-43fc-b8a3-f85bc537ba47.png)<br/>
+
 <pre>node 7080.js</pre><br/>
 
-![runing7080port](https://user-images.githubusercontent.com/53372486/141770633-23e14afd-7bf8-46eb-9bdb-aa59d9f86c3e.png)<br/>
+![runing7080port](https://user-images.githubusercontent.com/53372486/141770633-23e14afd-7bf8-46eb-9bdb-aa59d9f86c3e.png)
+<br/>
 
 ###  Install pm2 tool and create 4 clusters of bothe Node's.
 <br/>
 install pm2 via NPM<br/>
 
 ![pm2 version](https://user-images.githubusercontent.com/53372486/141771215-c572115a-b441-4d1f-88fc-897f2dbdfa94.png)<br/>
+
 <pre>sudo npm i -g pm2</pre><br/>
 <pre>sudo pm2 start 6080.js</pre><br/>
 <pre>sudo pm2 start 6080.js -i 4</pre><br/>
@@ -69,14 +73,17 @@ install pm2 via NPM<br/>
 ![cluster6080](https://user-images.githubusercontent.com/53372486/141771222-6a37ae51-6dc3-43cb-aeb8-c6552c12b1b5.png)<br/>
 <pre>sudo pm2 start 7080.js -i 4</pre><br/>
 
-![pm2cluster](https://user-images.githubusercontent.com/53372486/141771248-7ce6df3c-df8c-439d-ab1e-595137eccea9.png)<br/>
+![pm2cluster](https://user-images.githubusercontent.com/53372486/141771248-7ce6df3c-df8c-439d-ab1e-595137eccea9.png)
+<br/>
 ### Delete all 4 clusters one-by-one<br/>
 Deleting the node with id from pm2<br/>
 <pre>sudo pm2 delete 0</pre><br/>
 
-![deletecluster0](https://user-images.githubusercontent.com/53372486/141771257-80f6582b-6778-450f-b1bd-9db6d58d8b61.png)<br/>
+![deletecluster0](https://user-images.githubusercontent.com/53372486/141771257-80f6582b-6778-450f-b1bd-9db6d58d8b61.png)
+<br/>
 <pre>sudo pm2 delete 1</pre><br/>
 
-![deletecluster1](https://user-images.githubusercontent.com/53372486/141771264-9d87fcdf-79ea-4fd7-8c39-fc963fd1462a.png)<br/>
+![deletecluster1](https://user-images.githubusercontent.com/53372486/141771264-9d87fcdf-79ea-4fd7-8c39-fc963fd1462a.png)
+<br/>
 <pre>sudo pm2 delete 2</pre><br/>
 <pre>sudo pm2 delete 3</pre><br/>

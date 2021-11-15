@@ -9,20 +9,27 @@ check node version
 
 ![node version](https://user-images.githubusercontent.com/53372486/141771666-9614a20e-a541-4536-920c-fe0755db7f08.png)<br/>
     <pre>sudo npm -g install create-react-app</pre><br/>
-    ![install create react app](https://user-images.githubusercontent.com/53372486/141771700-afbeb883-f2d1-4749-adcd-ee9db0988af2.png)<br/>
-    <pre>create-react-app devops-internship</pre><br/>
-    ![create devops](https://user-images.githubusercontent.com/53372486/141771712-772f733c-5c87-4b55-bdec-52fac31c1232.png)<br/>
-    <pre>cd devops-internship</pre><br/>
+
+![install create react app](https://user-images.githubusercontent.com/53372486/141771700-afbeb883-f2d1-4749-adcd-ee9db0988af2.png)<br/>
+
+  <pre>create-react-app devops-internship</pre><br/>
+
+![create devops](https://user-images.githubusercontent.com/53372486/141771712-772f733c-5c87-4b55-bdec-52fac31c1232.png)<br/>
+
+  <pre>cd devops-internship</pre><br/>
     <pre>npm start</pre><br/>
-    ![react start in 3000](https://user-images.githubusercontent.com/53372486/141771747-0a5261a7-0953-4a3c-b732-e6f342ef842f.png)<br/>
+
+![react start in 3000](https://user-images.githubusercontent.com/53372486/141771747-0a5261a7-0953-4a3c-b732-e6f342ef842f.png)<br/>
+
 ![web running in 3000](https://user-images.githubusercontent.com/53372486/141771757-633854a8-ff0e-4208-9dc3-a7de036d628b.png)<br/>
+
 ### Change the default port 3000 to 3001  <br/>
- we can change port from package.json or .env
-   <pre>"scripts": {
-    "start": “PORT=8000 react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+ we can change port from package.json or .env<br/>
+   <pre>"scripts": {<br/>
+    "start": “PORT=8000 react-scripts start",<br/>
+    "build": "react-scripts build",<br/>
+    "test": "react-scripts test --env=jsdom",<br/>
+    "eject": "react-scripts eject"<br/>
   }</pre><br/>
    OR 
    create .env file and add below line
