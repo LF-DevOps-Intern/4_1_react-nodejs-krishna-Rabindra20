@@ -9,13 +9,19 @@
  <br/>
  <pre>sudo apt  install curl</pre> <br/>
 <pre>curl -sL https://deb.nodesource.com/setup_16.x -o nodesource_setup.sh</pre><br/>
+Inspect the contents of the downloaded script with nano<br/>
 <pre>nano nodesource_setup.sh</pre><br/>
+Run the script with sudo<br>
+  <pre>  sudo bash nodesource_setup.sh</pre><br/>
+Install node<br/>
 <pre>sudo apt install nodejs</pre><br/>
+check node version<br/>
 <pre>node -v</pre><br/>
 16.13.0<br/>
 
 ![node version](https://user-images.githubusercontent.com/53372486/141770536-b944f045-ae98-4fc4-ab0e-55307bb50703.png)
 <br/>
+check NPM version<br/>
 <pre>npm -version</pre><br/>
 8.1.0<br/>
 
@@ -23,6 +29,7 @@
 <br/>
 ### Create 2 API's running on ports 6080 and 7080 with mesaages "Hello Node JS" and "Node JS installed successfully" respectively.
 <br/>
+make node folder<br/>
     <pre> mkdir node</pre><br/>
 <pre>cd node</pre><br/>
 Install package<br/>

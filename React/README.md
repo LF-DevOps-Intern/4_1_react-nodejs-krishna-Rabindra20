@@ -8,16 +8,19 @@ check node version
     <pre>node -v</pre><br/>
 
 ![node version](https://user-images.githubusercontent.com/53372486/141771666-9614a20e-a541-4536-920c-fe0755db7f08.png)<br/>
+
+Install create-react-app<br/>
     <pre>sudo npm -g install create-react-app</pre><br/>
 
 ![install create react app](https://user-images.githubusercontent.com/53372486/141771700-afbeb883-f2d1-4749-adcd-ee9db0988af2.png)<br/>
 
+create react app<br/>
   <pre>create-react-app devops-internship</pre><br/>
 
 ![create devops](https://user-images.githubusercontent.com/53372486/141771712-772f733c-5c87-4b55-bdec-52fac31c1232.png)<br/>
   
   <pre>cd devops-internship</pre><br/>
-  Now run react app<br/>
+Now run react app<br/>
     <pre>npm start</pre><br/>
 
 ![react start in 3000](https://user-images.githubusercontent.com/53372486/141771747-0a5261a7-0953-4a3c-b732-e6f342ef842f.png)<br/>
